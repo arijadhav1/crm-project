@@ -1,0 +1,59 @@
+
+/** Aryan's Code
+.double-tap9 {
+    text-align: center;
+}
+
+.first-grid9 {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    .first-grid9 img {
+        width: 100px;
+        border: solid black 1px;
+        border-radius: 15%;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+    }
+
+    .first-grid-text9 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .payment9 {
+        position: relative;
+        bottom: 30px;
+        right: 16px;
+    }
+
+    .retain9 {
+        position: relative;
+        bottom: 30px;
+        right: 6px;
+    }
+
+    .reporting9 {
+        position: relative;
+        bottom: 30px;
+        left: 4px;
+    }
+
+    .convert9 {
+        position: relative;
+        bottom: 30px;
+        left: 8px;
+    }
+*/ 
+    
+    
+
+
+
+
+
+
+
