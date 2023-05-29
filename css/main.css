@@ -1,3 +1,4 @@
+
 /** Gus's Code*/ 
 
 
@@ -117,8 +118,32 @@ hr {
 
 
 /** Aryan's Code*/ 
+
+/*Aryans code starts here */
+
 .double-tap9 {
     text-align: center;
+}
+
+
+
+.plzwork9:focus, .payments9 {
+    background: #0040FF;
+    color: white;
+}
+
+
+
+.plzwork9 {
+    width: 90px;
+    height: 100px;
+    border-radius: 15%;
+    background-color: white;
+    
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+    
 }
 
 .first-grid9 {
@@ -126,51 +151,478 @@ hr {
     justify-content: space-evenly;
     }
 
+.first-grid-img9 {
+    border: white 1px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.second-grid-img9 {
+    border: white 1px;
+    border-radius: 50%;
+    padding: 10px;   
+    overflow: visible;
+}
+
+.third-grid-img9 {
+    border: white 1px;
+    border-radius: 50%;
+    padding: 10px;  
+    overflow: visible; 
+}
+
+.fourth-grid-img9 {
+    border: white 1px;
+    border-radius: 50%;
+    padding: 10px;
+    overflow: visible;  
+}
+
     .first-grid9 img {
-        width: 100px;
-        border: solid black 1px;
-        border-radius: 15%;
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-bottom: 40px;
+        width: 60px;
+        height: 60px;
+        
+        
+        border-spacing: 10px;
+        
+        background-color: white;
     }
+
+
 
     .first-grid-text9 {
         display: flex;
         justify-content: space-evenly;
+        
     }
 
     .payment9 {
         position: relative;
-        bottom: 30px;
-        right: 16px;
+        bottom: 28px;
+        right: 14px;
+        background-color: transparent;
+        color: black;
+        
     }
 
     .retain9 {
         position: relative;
-        bottom: 30px;
-        right: 6px;
+        bottom: 28px;
+        right: 5px;
     }
 
     .reporting9 {
         position: relative;
-        bottom: 30px;
-        left: 4px;
+        bottom: 28px;
+        left: 3px;
+    }
+
+    .list-box9 {
+        color: white;
     }
 
     .convert9 {
         position: relative;
-        bottom: 30px;
-        left: 8px;
+        bottom: 28px;
+        left: 7px
     }
+
+    .blue-box9 {
+        border: solid black 1px;
+        width: 48%;
+        
+        position: absolute;
+        left: 900px;
+        top: 475px;
+        background-color: #0040FF;
+        z-index: -1;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        
+        
+    }
+
+
+    .big-box-container9 {
+        display: grid;
+        border: 1px solid black;
+        margin: 90px;
+        border-radius: 50px;
+        padding-bottom: 200px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "credit-image9 accept-payments9"
+    }
+
+    .credit-image9 {
+        grid-area: credit-image9;
+        position: relative;
+        left: 200px;
+        top: 50px;
+        
+    }
+
+   
+    
+.accept-payments9 {
+    grid-area: accept-payments9;
+}
+
+    .big-box-container9 div {
+        padding: 3em;
+        max-height: 50vh;
+        
+    }
+
 /** Aryan's Code Ends*/ 
+
+
+.list-box9 {
+    position: relative;
+    right: 47px;
+    font-size: small;
+    list-style-type: none;
+
     
     
+}
+
+.li9 {
+    margin: 13px;
+    
+}
+
+.button9 {
+    background-color:#0040FF;
+    color: white;
+    border-color: white;
+    padding-right: 20px;
+    padding-left: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.second-button9 {
+    background-color: white;
+    
+    padding-right: 20px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.second-button9:hover {
+    background-color: lightblue;
+}
+
+.start-text9 {
+    font-size: xx-large;
+    color: white;
+}
+
+.deliver-text9 {
+    color: white;
+}
+
+.sol9 {
+    text-align: center;
+}
+
+.etap9 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+    grid-template-areas: 
+        "email9 task9"
+        "analytics9 project9"
+}
 
 
 
+.email9 {
+    grid-area: email9;
+    text-align: center;  
+    
+    
+}
+
+.task9 {
+    grid-area: task9;
+    text-align: center; 
+    
+}
+
+.analytics9 {
+    grid-area: analytics9;
+    text-align: center;
+}
+
+.projects9 {
+    grid-area: project9;
+    text-align: center;
+}
+
+.size-img9 {
+    width: 15%;
+    position: relative;
+    border: solid gray 1px;
+    border-radius: 50%;
+    overflow:visible;
+    padding: 20px;
+    background-color: #E5EFFF;
+    
+    
+}
 
 
 
+.grid-ed-text9 {
+    position: relative;
+    left: 4px;
+}
 
+.bottom-nav9 {
+    background-color: #015DF2;
+
+}
+
+.start-now9 {
+    color: white;
+    text-align: center;
+}
+
+.get-start9 {
+    color: white;
+    text-align: center;
+}
+
+.left-button9 {
+    background-color: rgb(81, 173, 81);
+    color: white;
+    font-size: x-large;
+    padding-right: 25px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    border-radius: 10px;
+    border: transparent;
+}
+
+.left-button9:hover {
+    background-color: lightblue;
+}
+
+.right-button9 {
+    background-color: white;
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+    font-size: x-large;
+    padding-right: 25px;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    border-radius: 10px;
+    border: transparent;
+    z-index: 1;
+}
+
+
+
+.img-button9 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 400px;
+    top: 10px;
+    z-index: 2;
+
+}
+
+.even-buttons9 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-list9 {
+    color: white;
+    text-align: center;
+}
+/*Aryan code ends here */
+/* Nhien code start from here */
+.signup-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 0.1fr;
+}
+.column-1-5{
+    display: flex;
+    height: 800px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+.up-5{
+    margin-left: 250px;
+    min-height: 40px;
+    font-size: 60px;
+    margin-top: 100px;
+}
+.user-5 i{
+    position: absolute;
+}
+.user-5{
+    margin-left: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#uname-5{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 15px;
+    min-width: 450px;
+    border-radius: 30px;
+    text-align:center;
+}
+.pic-5{
+    background-image: url('https://i.imgur.com/FDo2R2y.png');
+    margin-top: 100px;
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 120%;
+    min-width: 100%;
+}
+.icon-5{
+    padding: 20px;
+    margin-left: 30px;
+    min-width: 40px;
+}
+.input-field-5{
+    width: 80%;
+    padding: 10px;
+    margin: 30px;
+}
+.inline-5{
+    max-width: 300px;
+    margin: 100px;
+}
+.sen-5{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 180px;
+    margin-bottom: 40px;
+}
+.soc-5{
+    margin-left: 60px;
+}
+article a:link, a:visited{
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: rgb(65, 65, 240);
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 100px;
+    width: 100%;
+}
+article a:hover, a:active{
+    background-color: rgb(242, 178, 60);
+}
+.signin-5{
+    display: grid;
+    grid-template-columns: 4fr 4fr 0.5fr;
+}
+.pic-5-2{
+    background-image: url('https://i.imgur.com/UBu2cdb.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    min-height: 120%;
+    min-width: 120%;
+    background-position: inherit;
+    background-size: cover;
+}
+.up-5-2{
+    min-height: 100px;
+    font-size: 60px;
+    padding-left: 180px;
+    margin-top: 120px;
+}
+.inline-5-2{
+    max-width: 300px;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+.user-5-2 i{
+    position: absolute;
+}
+.user-5-2{
+    margin-right: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.input-field-5-2{
+    width: 80%;
+    padding: 10px;
+    margin: 30px;
+}
+#uname-5-2{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 15px;
+    min-width: 450px;
+    border-radius: 30px;
+    text-align:center;
+}
+.sen-5-2{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.soc-5-2{
+    margin-right: 0;
+}
+#pic-word-5{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 200px;
+}
+div a:link, a:visited{
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: #0314FE;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+}
+div a:hover, a:active{
+    background-color: rgb(242, 178, 60);
+}
+/* Nhien code end here */
