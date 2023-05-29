@@ -1,7 +1,28 @@
 
-/** Aryan's Code
+
 .double-tap9 {
     text-align: center;
+}
+
+
+
+.plzwork9:focus, .payments9 {
+    background: #0040FF;
+    color: white;
+}
+
+
+
+.plzwork9 {
+    width: 90px;
+    height: 100px;
+    border-radius: 15%;
+    background-color: white;
+    
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+    
 }
 
 .first-grid9 {
@@ -9,51 +30,305 @@
     justify-content: space-evenly;
     }
 
+.first-grid-img9 {
+    border: white 1px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.second-grid-img9 {
+    border: white 1px;
+    border-radius: 50%;
+    padding: 10px;   
+    overflow: visible;
+}
+
+.third-grid-img9 {
+    border: white 1px;
+    border-radius: 50%;
+    padding: 10px;  
+    overflow: visible; 
+}
+
+.fourth-grid-img9 {
+    border: white 1px;
+    border-radius: 50%;
+    padding: 10px;
+    overflow: visible;  
+}
+
     .first-grid9 img {
-        width: 100px;
-        border: solid black 1px;
-        border-radius: 15%;
-        padding-top: 25px;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-bottom: 40px;
+        width: 60px;
+        height: 60px;
+        
+        
+        border-spacing: 10px;
+        
+        background-color: white;
     }
+
+
 
     .first-grid-text9 {
         display: flex;
         justify-content: space-evenly;
+        
     }
 
     .payment9 {
         position: relative;
-        bottom: 30px;
-        right: 16px;
+        bottom: 28px;
+        right: 14px;
+        background-color: transparent;
+        color: black;
+        
     }
 
     .retain9 {
         position: relative;
-        bottom: 30px;
-        right: 6px;
+        bottom: 28px;
+        right: 5px;
     }
 
     .reporting9 {
         position: relative;
-        bottom: 30px;
-        left: 4px;
+        bottom: 28px;
+        left: 3px;
+    }
+
+    .list-box9 {
+        color: white;
     }
 
     .convert9 {
         position: relative;
-        bottom: 30px;
-        left: 8px;
+        bottom: 28px;
+        left: 7px
     }
-*/ 
+
+    .blue-box9 {
+        border: solid black 1px;
+        width: 48%;
+        
+        position: absolute;
+        left: 900px;
+        top: 475px;
+        background-color: #0040FF;
+        z-index: -1;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        
+        
+    }
+
+
+    .big-box-container9 {
+        display: grid;
+        border: 1px solid black;
+        margin: 90px;
+        border-radius: 50px;
+        padding-bottom: 200px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "credit-image9 accept-payments9"
+    }
+
+    .credit-image9 {
+        grid-area: credit-image9;
+        position: relative;
+        left: 200px;
+        top: 50px;
+        
+    }
+
+   
+    
+.accept-payments9 {
+    grid-area: accept-payments9;
+}
+
+    .big-box-container9 div {
+        padding: 3em;
+        max-height: 50vh;
+        
+    }
+
+.list-box9 {
+    position: relative;
+    right: 47px;
+    font-size: small;
+    list-style-type: none;
     
     
+}
+
+.li9 {
+    margin: 13px;
+    
+}
+
+.button9 {
+    background-color:#0040FF;
+    color: white;
+    border-color: white;
+    padding-right: 20px;
+    padding-left: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.second-button9 {
+    background-color: white;
+    
+    padding-right: 20px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.second-button9:hover {
+    background-color: lightblue;
+}
+
+.start-text9 {
+    font-size: xx-large;
+    color: white;
+}
+
+.deliver-text9 {
+    color: white;
+}
+
+.sol9 {
+    text-align: center;
+}
+
+.etap9 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+    grid-template-areas: 
+        "email9 task9"
+        "analytics9 project9"
+}
 
 
 
+.email9 {
+    grid-area: email9;
+    text-align: center;  
+    
+    
+}
+
+.task9 {
+    grid-area: task9;
+    text-align: center; 
+    
+}
+
+.analytics9 {
+    grid-area: analytics9;
+    text-align: center;
+}
+
+.projects9 {
+    grid-area: project9;
+    text-align: center;
+}
+
+.size-img9 {
+    width: 15%;
+    position: relative;
+    border: solid gray 1px;
+    border-radius: 50%;
+    overflow:visible;
+    padding: 20px;
+    background-color: #E5EFFF;
+    
+    
+}
 
 
 
+.grid-ed-text9 {
+    position: relative;
+    left: 4px;
+}
 
+.bottom-nav9 {
+    background-color: #015DF2;
+
+}
+
+.start-now9 {
+    color: white;
+    text-align: center;
+}
+
+.get-start9 {
+    color: white;
+    text-align: center;
+}
+
+.left-button9 {
+    background-color: rgb(81, 173, 81);
+    color: white;
+    font-size: x-large;
+    padding-right: 25px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    border-radius: 10px;
+    border: transparent;
+}
+
+.left-button9:hover {
+    background-color: lightblue;
+}
+
+.right-button9 {
+    background-color: white;
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+    font-size: x-large;
+    padding-right: 25px;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    border-radius: 10px;
+    border: transparent;
+    z-index: 1;
+}
+
+
+
+.img-button9 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 400px;
+    top: 10px;
+    z-index: 2;
+
+}
+
+.even-buttons9 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-list9 {
+    color: white;
+    text-align: center;
+}
