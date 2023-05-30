@@ -78,18 +78,20 @@ header a {
     width: 100px;
     height: 38px;
 }
-.cta4 button{
+.cta4 {
     color: white;
     border-radius: 10px;
     font-size: 18px;
     text-decoration: none;
-    background: blue;
+    text-align: center;
+    align-items: center;
+    background-color: #0040FF;
     border: none;
     width: 180px;
     height: 50px;
 }
 
-.cta5 button{
+.cta5 {
     color: blue;
     border-radius: 10px;
     font-size: 18px;
@@ -98,6 +100,9 @@ header a {
     border-color: blue;
     width: 180px;
     height: 50px;
+    display: inline-block;
+    text-align: center;
+
 }
 
 hr {
@@ -542,7 +547,7 @@ article a:link, a:visited{
     width: 100%;
 }
 article a:hover, a:active{
-    background-color: rgb(242, 178, 60);
+    background-color: rgb(242, 178, 60); 
 }
 .signin-5{
     display: grid;
@@ -623,7 +628,7 @@ div a:link, a:visited{
     padding-bottom: 5px;
 }
 div a:hover, a:active{
-    background-color: rgb(242, 178, 60);
+    background-color: rgb(242, 178, 60); 
 }
 /* Nhien code end here */
 /* Gagan's code starts here*/
